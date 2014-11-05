@@ -1,0 +1,25 @@
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# NetBeans project folder
+nbproject
+# Sublime project files
+delivericious.sublime-project
+delivericious.sublime-workspace
+
+*.swp
+*.un~
+*.*~
+dump.rdb
+.foreverignore
+.*.gz

@@ -1,0 +1,252 @@
+/**
+    *
+    * Copyright (c) 2013 paramana.com
+    * Theme Name: paramana.com
+    * Description: This is the general style of paramana.com
+    * Version: 3.0
+    * Author: paramana.com
+    *
+ */
+
+
+
+/* ==========================================================================
+   General Rules
+   ========================================================================== */
+
+body {
+    background-color: #373849;
+    color: white;   
+    min-width: 320px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ==========================================================================
+    Typography
+   ========================================================================== */
+
+body {
+    font-family: "Century Gothic";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    font-family: "Comfortaa";
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+
+.menu-icon {
+    font-size: 2em;
+    line-height: 1.8;
+}
+
+.section__summary {
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.section__header {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+    
+/* ==========================================================================
+    Top Navigation Bar
+   ========================================================================== */
+
+.nav-bar {
+    /* background-color: black; */
+}
+
+.nav {
+    display: none;
+    /* padding: 1em 0; */
+    position: relative;
+}
+
+.nav__bg {
+    position: absolute;
+    
+    width: 100%;
+    top: -76px;
+    opacity: 0.2;
+    left: 303px;
+}
+
+.logo {
+    padding: 1em 2%;
+    display: inline-block;
+    margin: 0;
+    border-bottom: none;
+
+}
+
+.logo:before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    background-color: #2B2B2B;
+    display: block;
+    border: 2px solid #e1e1e1;
+    float: left;
+    margin-right: 8px;
+}
+
+.logo__dotcom {
+    color: #717374;
+}
+
+.menu-icon {
+    display: inline-block;
+    float: right;
+    padding: 0 6%;
+    border-bottom: 0;
+}
+
+.nav-item {
+    text-align: center;
+}
+.nav-item a {
+    border-bottom-color: #444;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.nav-item:last-child a {
+    border-bottom: none;
+}
+
+
+
+
+.nav-item a {
+    display: block;
+}
+
+
+/* ==========================================================================
+    Sections       
+   ========================================================================== */
+
+.section {
+    text-align: center;
+    /* padding: 0 2%; */
+}
+
+.section--what-we-do {
+    min-height: 330px;
+}
+
+.primary-graphic {
+    width: 100%;
+    top: -70px;
+    position: relative;
+    opacity: 0.8;
+    margin-bottom: -70px;
+}
+
+.section--our-work {
+    background-color: #9F3B53;
+}
+
+.section--who-we-are {
+    background-color: #379181;
+}
+
+.section--contact {
+    background-color: #536C8B;
+}
+
+.section__header {
+    position: relative;
+    padding: 1em 2% 0.5em;
+    margin: 0;
+}
+
+.section__header:after {
+    content: " ";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    bottom: 0px;
+    left: 50%;
+    position: absolute;
+    margin-left: -40px;
+    border-radius: 1px;
+}
+
+.section__summary {
+    margin: 0;
+    padding: 1em 2%;
+    z-index: 2;
+    position: relative;
+}
+
+.section__cta {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 0.4em;
+    border-radius: 2px;
+    background-color: #373849;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+.section__cta:hover {
+    background-color: black;
+}
+
+.section__map {
+    height: 200px;
+    background-color: #373849;
+    margin-bottom: 1em;
+}
+
+/* ==========================================================================
+   Project List
+   ========================================================================== */
+
+.project-list {
+    
+    
+}
+
+.project-item {
+    height: 160px;
+    background-color: #7F3C4E;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
