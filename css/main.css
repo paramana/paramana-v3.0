@@ -51,7 +51,6 @@ ul {
 
 body {
     font-family: 'Questrial', sans-serif;
-
 }
 
 a {
@@ -79,8 +78,26 @@ a {
     font-weight: normal;
 }
 
+@media all and (min-width: 600px) {
+
+    .section__summary {
+        font-size: 1.2em;
+    }
+    
+    .section__cta {
+        font-size: 1.2em;    
+    }
+}
+
 .section__header {
     line-height: 1;
+}
+
+@media all and (min-width: 600px) {
+
+    .section__header {
+        font-size: 3em;
+    }
 }
 
     
@@ -159,7 +176,6 @@ a {
 
 .section {
     text-align: center;
-    min-height: 550px;
     padding-top: 2em;
 }
 
@@ -246,7 +262,6 @@ a {
 .section__map {
     height: 200px;
     background-color: #373849;
-    margin-bottom: 1em;
 }
 
 /* ==========================================================================
