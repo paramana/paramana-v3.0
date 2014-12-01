@@ -1,6 +1,6 @@
 /**
     *
-    * Copyright (c) 2013 paramana.com
+    * Copyright (c) 2014 paramana.com
     * Theme Name: paramana.com
     * Description: This is the general style of paramana.com
     * Version: 3.0
@@ -76,10 +76,10 @@ a {
 .section__summary {
     font-size: 1em;
     line-height: 1.3;
+    font-weight: normal;
 }
 
 .section__header {
-    font-family: 'Questrial', sans-serif;
     line-height: 1;
 }
 
@@ -89,12 +89,10 @@ a {
    ========================================================================== */
 
 .nav-bar {
-    /* background-color: black; */
+     /*background-color: black; */
 }
 
 .nav {
-    display: none;
-    /* padding: 1em 0; */
     position: relative;
 }
 
@@ -146,9 +144,6 @@ a {
     padding-top: 1em;
 }
 
-.nav-item:last-child a {
-    border-bottom: none;
-}
 
 
 
@@ -290,22 +285,64 @@ a {
 
 .team-member {
     margin: 0 auto 1em;
-    width: 90%;
+    width: 96%;
 }
 
 .team-member__avatar {
     border-radius: 50%;
     background-color: #17564A;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border: 3px solid white;
     float: left;
-    margin-right: 5%;
+    margin-right: 3%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    background-size: contain;
+    
+}
+
+.team-member__avatar--giannis {
+    
+}
+
+.team-member__avatar--chris {
+    
+}
+
+.team-member__avatar--thanos {
+    background-image: url('../images/thanos_square.png');
+}
+
+.team-member__name {
+    margin-bottom: 0.3em;
 }
 
 .team-member__role {
-    
+    margin-bottom: 0.3em;   
 }
+
+.team-member__website {
+    margin-bottom: 0.5em;
+}
+
+.team-member__social-media a {
+    white-space: nowrap;
+    font-size: 15px;
+    border-bottom: none;
+}
+
+.team-member__social-media a:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+
+/* ==========================================================================
+   Map
+   ========================================================================== */
+
+#map-canvas { height: 100%; margin: 0; padding: 0;}
+
 
 /* ==========================================================================
    Helper classes
@@ -320,3 +357,16 @@ a {
 .clearfix:after {
     clear: both;
 }
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.visible {
+    display: block;
+    visibility: visible;    
+}
+
+
+
