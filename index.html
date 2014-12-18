@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/linea/styles.css">
         
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
@@ -23,10 +24,6 @@
 
     <body>
         <header class="nav-bar clearfix">
-            <a class="logo" href="#">paramana<span class="logo__dotcom">.com</span></a>
-            <a class="menu-icon js-menu-icon" href="#">
-                <i class="fa fa-bars"></i>
-            </a>
             <nav class="nav">
                 <ul class="clearfix">
                     <li class="nav-item"><a class="" href="#what-we-do">What we do</a></li>
@@ -35,91 +32,107 @@
                     <li class="nav-item"><a class="" href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <a class="logo" href="#">paramana<span class="logo__dotcom">.com</span></a>
+            <a class="menu-icon js-menu-icon" href="#">
+                <i class="pi-hamburger"></i>
+            </a>
         </header>
-
             
-        <section id="what-we-do" class="section section--what-we-do">
-            <h1 class="section__header">We turn ideas into great digital experiences.</h1>
-            <h2 class="section__summary">Hi there! We are Paramana, a small design studio based in Amsterdam. Since 2008 we have helped NGOs, startups and individuals to create brilliant digital experiences.</h2>
-            <a class="section__cta" href="mailto:info@paramana.com">Drop us a line</a>
-            <img class="primary-graphic" src="images/8.png">
+        <section id="what-we-do" class="section section--what-we-do clearfix">
+            <section class="section__inner">
+                <h1 class="section__header">We turn ideas into great digital experiences.</h1>
+                <h2 class="section__summary">We are an idependent digital design studio based in Amsterdam. Since 2008 we have helped NGOs, startups and individuals to create brilliant digital products.</h2>
+                <div>
+                    <a class="section__cta" href="mailto:info@paramana.com">Drop us a line</a>    
+                </div>
+                <img class="primary-graphic" aria-hidden="true" src="images/8.png">
+                <a class="next-section next-section--what-we-do icon-arrows-circle-down" aria-hidden="true" href="#our-work"></a>
+            </section>
         </section>
+        
         <section id="our-work" class="section section--our-work">
-            <h1 class="section__header">We are proud of our work.</h1>
-            <h2 class="section__summary">Take a look at some of our selected projects.</h2>
-            <ul class="project-list clearfix">
-                <li class="project-item"></li>
-                <li class="project-item"></li>
-                <li class="project-item"></li>
-                <li class="project-item"></li>
-            </ul>
+            <section class="section__inner">
+                <h1 class="section__header">We are proud of our work.</h1>
+                <h2 class="section__summary">Take a look at some of our selected projects.</h2>
+                <ul class="project-list clearfix">
+                    <li class="project-item project-item--delivericious"></li>
+                    <li class="project-item project-item--emprego"></li>
+                    <li class="project-item project-item--amnesty"></li>
+                    <li class="project-item project-item--delivericious"></li>
+                </ul>
+                <a class="next-section icon-arrows-circle-down" aria-hidden="true" href="#who-we-are"></a>
+            </section>
         </section>
+        
         <section id="who-we-are" class="section section--who-we-are clearfix">
-            <h1 class="section__header">We are passionate with the web.</h1>
-            <h2 class="section__summary">We love solving problems. Asking the right questions is key to approach the problems with the right angle.</h2>
-            <ul class="team clearfix">
-                <li class="team-member team-member--giannis clearfix">
-                    <div class="team-member__name">Giannis Panagiotou</div>
-                    <div class="team-member__role">Developer</div>
-                    <div class="team-member__website"><a href="//www.cubiccloud.com" target="_blank">www.cubiccloud.com</a></div>
-                    <div class="team-member__social-media">
-                        <a href="//twitter.com/bonejp" class="twitter" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span>twitter</span>
-                        </a>
-                        <a href="//www.linkedin.com/in/giannispanagiotou" class="linkedin" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span>linkedin</span>
-                        </a>
-                        <a href="//github.com/giannis" class="github" target="_blank">
-                            <i class="fa fa-github" aria-hidden="true"></i>
-                            <span>Github</span>
-                        </a>
-                    </div>
-                </li>                
-                <li class="team-member team-member--chris clearfix">
-                    <div class="team-member__name">Christina Papakostantinou</div>
-                    <div class="team-member__role">Designer</div>
-                    <div class="team-member__social-media">
-                        <a href="//twitter.com/chrisParaman" class="twitter" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span>twitter</span>
-                        </a>
-                        <a href="//www.linkedin.com/in/cpapakonstantinou" class="linkedin" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span>linkedin</span>
-                        </a>
-                    </div>
-                </li>                
-                <li class="team-member team-member--thanos clearfix">                
-                    <div class="team-member__name">Thanos Samarinas</div>
-                    <div class="team-member__role">Designer</div>
-                    <div class="team-member__website"><a href="//www.karmiczero.com">www.karmiczero.com</a></div>
-                    <div class="team-member__social-media">
-                        <a href="//twitter.com/zerots" class="twitter" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span>twitter</span>
-                        </a>
-                        <a href="//www.linkedin.com/in/zerots" class="linkedin" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span>linkedin</span>
-                        </a>
-                        <a href="//dribbble.com/zerots" class="dribbble" target="_blank">
-                            <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            <span>dribbble</span>
-                        </a>
-                    </div>
-                </li>                
-            </ul>
+            <section class="section__inner">
+                <h1 class="section__header">We are passionate with the web.</h1>
+                <h2 class="section__summary">We love solving problems. Asking the right questions is key to approach the problems with the right angle.</h2>
+                <ul class="team clearfix">
+                    <li class="team-member team-member--giannis clearfix">
+                        <div class="team-member__name">Giannis Panagiotou</div>
+                        <div class="team-member__role">Developer</div>
+                        <div class="team-member__website"><a href="//www.cubiccloud.com" target="_blank">www.cubiccloud.com</a></div>
+                        <div class="team-member__social-media">
+                            <a href="//twitter.com/bonejp" class="twitter" target="_blank">
+                                <i class="pi-twitter" aria-hidden="true"></i>
+                                <span>twitter</span>
+                            </a>
+                            <a href="//www.linkedin.com/in/giannispanagiotou" class="linkedin" target="_blank">
+                                <i class="pi-linkedin" aria-hidden="true"></i>
+                                <span>linkedin</span>
+                            </a>
+                            <a href="//github.com/giannis" class="github" target="_blank">
+                                <i class="pi-github" aria-hidden="true"></i>
+                                <span>Github</span>
+                            </a>
+                        </div>
+                    </li>                
+                    <li class="team-member team-member--chris clearfix">
+                        <div class="team-member__name">Christina Papakostantinou</div>
+                        <div class="team-member__role">Designer</div>
+                        <div class="team-member__social-media">
+                            <a href="//twitter.com/chrisParaman" class="twitter" target="_blank">
+                                <i class="pi-twitter" aria-hidden="true"></i>
+                                <span>twitter</span>
+                            </a>
+                            <a href="//www.linkedin.com/in/cpapakonstantinou" class="linkedin" target="_blank">
+                                <i class="pi-linkedin" aria-hidden="true"></i>
+                                <span>linkedin</span>
+                            </a>
+                        </div>
+                    </li>                
+                    <li class="team-member team-member--thanos clearfix">                
+                        <div class="team-member__name">Thanos Samarinas</div>
+                        <div class="team-member__role">Designer</div>
+                        <div class="team-member__website"><a href="//www.karmiczero.com">www.karmiczero.com</a></div>
+                        <div class="team-member__social-media">
+                            <a href="//twitter.com/zerots" class="twitter" target="_blank">
+                                <i class="pi-twitter" aria-hidden="true"></i>
+                                <span>twitter</span>
+                            </a>
+                            <a href="//www.linkedin.com/in/zerots" class="linkedin" target="_blank">
+                                <i class="pi-linkedin" aria-hidden="true"></i>
+                                <span>linkedin</span>
+                            </a>
+                            <a href="//dribbble.com/zerots" class="dribbble" target="_blank">
+                                <i class="pi-dribbble" aria-hidden="true"></i>
+                                <span>dribbble</span>
+                            </a>
+                        </div>
+                    </li>                
+                </ul>
+                <a class="next-section icon-arrows-circle-down" aria-hidden="true" href="#contact"></a>
+            </section>
         </section>
         <section id="contact" class="section section--contact clearfix">
-            <h1 class="section__header">Do you like our work? Let’s get in touch!</h1>
-            <h2 class="section__summary">Drop us a line at <a href="mailto:info@paramana.com">info@paramana.com</a>. We’d love to hear from you!</h2>
-            <div class="section__map">
-                
-                <div id="map-canvas"></div>
-
-            </div>
+            <section class="section__inner">
+                <h1 class="section__header">Do you like our work? Let’s get in touch!</h1>
+                <h2 class="section__summary">Drop us a line at <a href="mailto:info@paramana.com">info@paramana.com</a>. We’d love to hear from you!</h2>
+                <div class="section__map">                
+                    <div id="map-canvas"></div>
+                </div>
+            </section>
         </section>
 
         <footer>

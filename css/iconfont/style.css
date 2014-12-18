@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'paramana';
+	src:url('fonts/paramana.eot?8ucnqi');
+	src:url('fonts/paramana.eot?#iefix8ucnqi') format('embedded-opentype'),
+		url('fonts/paramana.woff?8ucnqi') format('woff'),
+		url('fonts/paramana.ttf?8ucnqi') format('truetype'),
+		url('fonts/paramana.svg?8ucnqi#paramana') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	font-family: 'paramana';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.p-icon-down-arrow-circle:before {
+	content: "\e600";
+}

@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'paramana-icon-font';
+	src:url('fonts/paramana-icon-font.eot?-d5k60x');
+	src:url('fonts/paramana-icon-font.eot?#iefix-d5k60x') format('embedded-opentype'),
+		url('fonts/paramana-icon-font.woff?-d5k60x') format('woff'),
+		url('fonts/paramana-icon-font.ttf?-d5k60x') format('truetype'),
+		url('fonts/paramana-icon-font.svg?-d5k60x#paramana-icon-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="pi-"], [class*=" pi-"] {
+	font-family: 'paramana-icon-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pi-dribbble:before {
+	content: "\f17d";
+}
+.pi-twitter:before {
+	content: "\f099";
+}
+.pi-twitter-square:before {
+	content: "\f081";
+}
+.pi-github:before {
+	content: "\f09b";
+}
+.pi-github-square:before {
+	content: "\f092";
+}
+.pi-linkedin-square:before {
+	content: "\f08c";
+}
+.pi-linkedin:before {
+	content: "\f0e1";
+}
+.pi-hamburger:before {
+	content: "\e032";
+}
+.pi-down-arrow-circle:before {
+	content: "\e600";
+}

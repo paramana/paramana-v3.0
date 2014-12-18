@@ -1,0 +1,81 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M524 672l272-274-24-24-260 260-260-262-24 26 272 274zM512 1024c0 0 0 0 0 0 136 0 266-54 362-150s150-226 150-362c0-136-54-266-150-362s-226-150-362-150c0 0 0 0 0 0-136 0-266 54-362 150s-150 226-150 362c0 136 54 266 150 362s226 150 362 150zM172 172c92-90 212-140 340-140 0 0 0 0 0 0 128 0 248 50 340 140 90 92 140 212 140 340s-50 248-140 340c-92 90-212 140-340 140v0c0 0 0 0 0 0-128 0-248-50-340-140-90-92-140-212-140-340s50-248 140-340z"
+				],
+				"attrs": [
+					{}
+				],
+				"defaultCode": 57352,
+				"grid": 0
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"id": 8,
+				"order": 7,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "down-arrow-circle"
+			},
+			"setIdx": 0,
+			"iconIdx": 8
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "paramana"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "p-icon-",
+			"metadata": {
+				"fontFamily": "paramana",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": true,
+			"ligaReset": "tags",
+			"autoHost": false,
+			"ie7": true,
+			"showVersion": true,
+			"showSelector": true,
+			"selector": "class",
+			"classSelector": ".icon"
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": true,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"quickUsageToken": {
+			"UntitledProject1": "ZjRlYzk1ZGQ2MTljYmJmNGNjYzE3ZmQ4NWMzNGNlZTkjMSMxNDE4NjgxMDk3IyMj"
+		}
+	}
+}
