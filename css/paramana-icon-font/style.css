@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'paramana-icon-font';
-	src:url('fonts/paramana-icon-font.eot?-d5k60x');
-	src:url('fonts/paramana-icon-font.eot?#iefix-d5k60x') format('embedded-opentype'),
-		url('fonts/paramana-icon-font.woff?-d5k60x') format('woff'),
-		url('fonts/paramana-icon-font.ttf?-d5k60x') format('truetype'),
-		url('fonts/paramana-icon-font.svg?-d5k60x#paramana-icon-font') format('svg');
+	src:url('fonts/paramana-icon-font.eot?9tv9pq');
+	src:url('fonts/paramana-icon-font.eot?#iefix9tv9pq') format('embedded-opentype'),
+		url('fonts/paramana-icon-font.woff?9tv9pq') format('woff'),
+		url('fonts/paramana-icon-font.ttf?9tv9pq') format('truetype'),
+		url('fonts/paramana-icon-font.svg?9tv9pq#paramana-icon-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -24,29 +24,26 @@
 }
 
 .pi-dribbble:before {
-	content: "\f17d";
+	content: "\e600";
 }
 .pi-twitter:before {
-	content: "\f099";
-}
-.pi-twitter-square:before {
-	content: "\f081";
+	content: "\e601";
 }
 .pi-github:before {
-	content: "\f09b";
-}
-.pi-github-square:before {
-	content: "\f092";
-}
-.pi-linkedin-square:before {
-	content: "\f08c";
+	content: "\e603";
 }
 .pi-linkedin:before {
-	content: "\f0e1";
-}
-.pi-hamburger:before {
-	content: "\e032";
+	content: "\e606";
 }
 .pi-down-arrow-circle:before {
-	content: "\e600";
+	content: "\e608";
+}
+.pi-up-arrow-circle:before {
+	content: "\e602";
+}
+.pi-hamburger:before {
+	content: "\e607";
+}
+.pi-close:before {
+	content: "\e604";
 }

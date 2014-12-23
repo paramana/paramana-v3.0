@@ -135,31 +135,28 @@ a {
 }
 
 .pi-dribbble:before {
-    content: "\f17d";
+    content: "\e600";
 }
 .pi-twitter:before {
-    content: "\f099";
-}
-.pi-twitter-square:before {
-    content: "\f081";
+    content: "\e601";
 }
 .pi-github:before {
-    content: "\f09b";
-}
-.pi-github-square:before {
-    content: "\f092";
-}
-.pi-linkedin-square:before {
-    content: "\f08c";
+    content: "\e603";
 }
 .pi-linkedin:before {
-    content: "\f0e1";
-}
-.pi-hamburger:before {
-    content: "\e032";
+    content: "\e606";
 }
 .pi-down-arrow-circle:before {
-    content: "\e600";
+    content: "\e608";
+}
+.pi-up-arrow-circle:before {
+    content: "\e602";
+}
+.pi-hamburger:before {
+    content: "\e607";
+}
+.pi-close:before {
+    content: "\e604";
 }
 
 
@@ -169,13 +166,19 @@ a {
    ========================================================================== */
 
 .nav-bar {
-    height: 72px;
+    height: 72px;    
+    /*background-color: #2D2C38;*/
 }
 
 @media all and (min-width: 600px) {
     .nav-bar {
         height: 88px;
     }
+}
+
+.nav-bar__inner {
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 .nav {
@@ -525,7 +528,28 @@ a {
 }
 
 
+/* ==========================================================================
+   Modal Window
+   ========================================================================== */
 
+.modal-window {
+    position: fixed;
+    background-color: rgba(55, 56, 73, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    /*display: none;*/
+}
+
+.modal-window img {
+    max-width: 100%;
+    display: block;
+}
 
 
 /* ==========================================================================

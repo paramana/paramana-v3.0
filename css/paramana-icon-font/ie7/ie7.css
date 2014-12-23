@@ -1,27 +1,24 @@
 .pi-dribbble {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17d;');
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
 }
 .pi-twitter {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;');
-}
-.pi-twitter-square {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf081;');
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe601;');
 }
 .pi-github {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;');
-}
-.pi-github-square {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf092;');
-}
-.pi-linkedin-square {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08c;');
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe603;');
 }
 .pi-linkedin {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e1;');
-}
-.pi-hamburger {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe032;');
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe606;');
 }
 .pi-down-arrow-circle {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe608;');
+}
+.pi-up-arrow-circle {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe602;');
+}
+.pi-hamburger {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe607;');
+}
+.pi-close {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
 }

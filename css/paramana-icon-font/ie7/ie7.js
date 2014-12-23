@@ -13,15 +13,14 @@
 		el.innerHTML = '<span style="font-family: \'paramana-icon-font\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'pi-dribbble': '&#xf17d;',
-		'pi-twitter': '&#xf099;',
-		'pi-twitter-square': '&#xf081;',
-		'pi-github': '&#xf09b;',
-		'pi-github-square': '&#xf092;',
-		'pi-linkedin-square': '&#xf08c;',
-		'pi-linkedin': '&#xf0e1;',
-		'pi-hamburger': '&#xe032;',
-		'pi-down-arrow-circle': '&#xe600;',
+		'pi-dribbble': '&#xe600;',
+		'pi-twitter': '&#xe601;',
+		'pi-github': '&#xe603;',
+		'pi-linkedin': '&#xe606;',
+		'pi-down-arrow-circle': '&#xe608;',
+		'pi-up-arrow-circle': '&#xe602;',
+		'pi-hamburger': '&#xe607;',
+		'pi-close': '&#xe604;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),
