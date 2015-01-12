@@ -1,6 +1,6 @@
 /**
     *
-    * Copyright (c) 2014 paramana.com
+    * Copyright (c) 2015 paramana.com
     * Theme Name: paramana.com
     * Description: This is the general style of paramana.com
     * Version: 3.0
@@ -166,7 +166,7 @@ a {
    ========================================================================== */
 
 .nav-bar {
-    height: 72px;    
+    height: 72px;
     /*background-color: #2D2C38;*/
 }
 
@@ -239,7 +239,7 @@ a {
 
     .logo:before {
         width: 30px;
-        height: 30px;        
+        height: 30px;
     }
 
     .menu-icon {
@@ -281,7 +281,7 @@ a {
     .nav-item {
         display: inline-block;
     }
-    
+
     .nav-item a {
         padding: 0.4em 0.8em;
         border: 0px solid white;
@@ -291,7 +291,7 @@ a {
 }
 
 /* ==========================================================================
-    Sections       
+    Sections
    ========================================================================== */
 
 .section {
@@ -424,7 +424,7 @@ a {
 }
 
 .project-item--emprego {
-    background: #7f3c4e url("../images/emprego-logo.png") center center no-repeat;
+    background: white url("../images/emprego-logo.png") center center no-repeat;
 }
 
 
@@ -544,6 +544,7 @@ a {
     padding-right: 10%;
     padding-left: 10%;
     /*display: none;*/
+    overflow: scroll;
 }
 
 .modal-window img {
@@ -551,6 +552,21 @@ a {
     display: block;
 }
 
+.pi-close {
+    font-size: 2em;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    border-bottom: none;
+    margin-top: -16px;
+    padding: 1%;
+    opacity: 0.6;
+}
+
+
+.pi-close:hover {
+    opacity: 1;
+}
 
 /* ==========================================================================
    Map

@@ -1,9 +1,16 @@
 $(document).ready(function() {
 
 
-    $('.js-menu-icon').click(function(){
-       $('.nav').toggleClass('expanded');
-    });
+  $('.js-menu-icon').click(function(){
+     $('.nav').toggleClass('expanded');
+  });
+
+  $('.pi-close').on( "click", function() {
+    $('.modal-window').removeClass('visible').addClass('hidden');
+  });
+  $('.project-item--emprego').on( "click", function() {
+    $('.modal-window').removeClass('hidden').addClass('visible');
+  });
 
 
 
