@@ -417,6 +417,18 @@ a {
     background-color: #7f3c4e;
     padding: 0;
     margin-bottom: 1em;
+    position: relative;
+}
+
+.project-item:before {
+    content: "";
+    background: url("../images/link-pointer.svg") center center no-repeat;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
 }
 
 .project-item--delivericious {
@@ -427,7 +439,6 @@ a {
     background: white url("../images/emprego-logo.png") center center no-repeat;
 }
 
-
 @media all and (min-width: 550px) {
     .project-item {
         width: 48%;
@@ -435,6 +446,11 @@ a {
         margin-left: 1%;
         margin-right: 1%;
         float: left;
+        cursor: pointer;
+    }
+
+    .project-item:before {
+        display: none;
     }
 }
 
@@ -543,7 +559,7 @@ a {
     padding-top: 10%;
     padding-right: 10%;
     padding-left: 10%;
-    /*display: none;*/
+    display: none;
     overflow: scroll;
 }
 
