@@ -166,13 +166,13 @@ a {
    ========================================================================== */
 
 .nav-bar {
-    height: 72px;
+    /*height: 72px;*/
     /*background-color: #2D2C38;*/
 }
 
 @media all and (min-width: 600px) {
     .nav-bar {
-        height: 88px;
+        /*height: 88px;*/
     }
 }
 
