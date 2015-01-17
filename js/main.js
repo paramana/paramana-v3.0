@@ -7,13 +7,13 @@ $(document).ready(function() {
 
   $('.pi-close').on( "click", function() {
     $('.modal-window').removeClass('visible').addClass('hidden');
-    $('.container').removeClass('hidden').addClass('visible');
     $('body').removeClass('overflow-hidden');
+    return false;
   });
   $('.project-item--emprego').on( "click", function() {
     $('.modal-window').removeClass('hidden').addClass('visible');
-    $('.container').removeClass('visible').addClass('hidden');
     $('body').addClass('overflow-hidden');
+    return false;
   });
 
 
