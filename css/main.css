@@ -190,6 +190,7 @@ a {
 
 .nav.expanded {
     max-height: 300px;
+    margin-bottom: 1em;
 }
 
 .logo {
@@ -251,10 +252,29 @@ a {
 
 .nav-item {
     text-align: center;
+    border-bottom: 1px solid #444444;
 }
 
+.nav-item--what-we-do {
+    background-color:
+}
+
+.nav-item--our-work {
+    background-color: #9f3b53;
+}
+
+.nav-item--who-we-are {
+    background-color: #379181;
+}
+
+.nav-item--contact {
+    background-color: #536c8b;
+}
+
+
+
 .nav-item a {
-    border-bottom-color: #444444;
+    border: none;
     padding-bottom: 1em;
     padding-top: 1em;
 }
