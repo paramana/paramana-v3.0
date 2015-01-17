@@ -21,7 +21,7 @@
                 var $this  = $(this),
                     $event = $(event.target);
 
-                if ($event.hasClass('js-menu-icon')) {
+                if ($event.hasClass('menu-icon') || $event.parent().hasClass('menu-icon')) {
                     $nav.toggleClass('expanded');
                     return false;
                 }
