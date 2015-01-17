@@ -432,15 +432,15 @@ a {
 }
 
 .project-item--delivericious {
-    background: #7f3c4e url("../images/deli-logo@1x.png") center center no-repeat;
+    background: #7f3c4e url("../images/projects/delivericious@1x.png") center center no-repeat;
 }
 
 .project-item--emprego {
-    background: white url("../images/emprego-logo.png") center center no-repeat;
+    background: white url("../images/projects/emprego@1x.png") center center no-repeat;
 }
 
 .project-item--moa192b {
-    background: #0A0A0A url("../images/moa192b@1x.png") center center no-repeat;
+    background: #0A0A0A url("../images/projects/moa192b@1x.png") center center no-repeat;
 }
 
 @media all and (min-width: 550px) {
@@ -478,15 +478,15 @@ a {
 }
 
 .team-member--thanos {
-    background-image: url("../images/thanos_square.png");
+    background-image: url("../images/avatars/thanos_square.png");
 }
 
 .team-member--giannis {
-    background-image: url("../images/thanos_square.png");
+    background-image: url("../images/avatars/thanos_square.png");
 }
 
 .team-member--chris {
-    background-image: url("../images/thanos_square.png");
+    background-image: url("../images/avatars/thanos_square.png");
 }
 
 
