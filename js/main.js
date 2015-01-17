@@ -32,7 +32,8 @@
                     return false;
                 }
                 if ($event.hasClass('project-item')) {
-                    $modal.removeClass('hidden').addClass('visible');
+                    var dataID = $event.data('id');
+                    $('.modal-window--' + dataID + ':eq(0)').removeClass('hidden').addClass('visible');
                     $this.addClass('overflow-hidden');
                     return false;
                 }
