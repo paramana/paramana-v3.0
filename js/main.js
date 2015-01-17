@@ -1,3 +1,7 @@
+// TODO
+// - Close the modal window on esc
+
+
 (function(){
     var events = function(){
         $('a[href*=#]:not([href=#])').click(function() {
@@ -33,7 +37,7 @@
                 }
                 if ($event.hasClass('project-item')) {
                     var dataID = $event.data('id');
-                    
+
                     $('.modal-window--' + dataID + ':eq(0)').removeClass('hidden').addClass('visible');
                     $this.addClass('overflow-hidden');
                     return false;
