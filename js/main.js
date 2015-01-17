@@ -33,6 +33,7 @@
                 }
                 if ($event.hasClass('project-item')) {
                     var dataID = $event.data('id');
+                    
                     $('.modal-window--' + dataID + ':eq(0)').removeClass('hidden').addClass('visible');
                     $this.addClass('overflow-hidden');
                     return false;
