@@ -439,6 +439,10 @@ a {
     background: white url("../images/emprego-logo.png") center center no-repeat;
 }
 
+.project-item--moa192b {
+    background: #0A0A0A url("../images/moa192b@1x.png") center center no-repeat;
+}
+
 @media all and (min-width: 550px) {
     .project-item {
         width: 48%;
