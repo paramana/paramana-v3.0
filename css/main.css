@@ -452,11 +452,23 @@ a {
 }
 
 .project-item--delivericious {
-    background: #7f3c4e url("../images/projects/delivericious@1x.png") center center no-repeat;
+    background: #D5D7C8 url("../images/projects/delivericious@1x.png") center center no-repeat;
 }
 
 .project-item--emprego {
     background: white url("../images/projects/emprego@1x.png") center center no-repeat;
+}
+
+.project-item--amnesty {
+    background: #F5F500 url("../images/projects/amnesty@1x.png") center center no-repeat;
+}
+
+.project-item--index {
+    background: white url("../images/projects/index@1x.png") center center no-repeat;
+}
+
+.project-item--qcenter {
+    background: white url("../images/projects/qcenter@1x.png") center center no-repeat;
 }
 
 .project-item--moa192b {
