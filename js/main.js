@@ -1,5 +1,7 @@
 // TODO
-// - Close the modal window on esc
+// - Close the modal window on esc and on click out
+//   of the container.
+// - Path in the url when modal window is open
 
 
 (function(){
