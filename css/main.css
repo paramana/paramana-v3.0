@@ -40,6 +40,7 @@ ul {
     margin-left: -24px;
     position: absolute;
     opacity: 0.6;
+    padding: 1px;
 }
 
 .next-section:hover {
@@ -349,7 +350,7 @@ h1, h2, h3, h4 {
 }
 
 .section--our-work {
-    background-color: #9f3b53;
+    background-color: #536c8b;
 }
 
 .section--who-we-are {
@@ -453,6 +454,15 @@ h1, h2, h3, h4 {
     right: 0;
     top: 0;
     background-size: cover;
+}
+
+.project-item:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: rgb(37, 59, 69);
+    opacity: 0.6;
 }
 
 .project-item--delivericious {
