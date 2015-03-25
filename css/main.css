@@ -2,7 +2,7 @@
     *
     * Copyright (c) 2015 paramana.com
     * Theme Name: paramana.com
-    * Description: This is the general style of paramana.com
+    * Description: Main CSS file for paramana.com
     * Version: 3.0
     * Author: paramana.com
     *
@@ -35,7 +35,7 @@ ul {
 .next-section {
     border-bottom: none;
     font-size: 3em;
-    bottom: 50px;
+    bottom: 72px;
     left: 50%;
     margin-left: -24px;
     position: absolute;
@@ -45,10 +45,6 @@ ul {
 
 .next-section:hover {
     opacity: 1;
-}
-
-.next-section.next-section--what-we-do {
-    bottom: 132px;
 }
 
 
@@ -220,8 +216,8 @@ h1, h2, h3, h4 {
     display: block;
     border: 2px solid #e1e1e1;
     float: left;
-    margin-right: 8px;
-    margin-top: 20px;
+    margin-right: 6px;
+    margin-top: 24px;
     margin-left: 10px;
 }
 
@@ -301,6 +297,11 @@ h1, h2, h3, h4 {
 
 .section {
     text-align: center;
+
+}
+
+.section--what-we-do {
+    margin-bottom: -72px;
     height: 100%;
     display: table;
     width: 100%;
@@ -308,16 +309,6 @@ h1, h2, h3, h4 {
     position: relative;
     padding-bottom: 100px;
 
-}
-
-.section__inner {
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.section--what-we-do {
-    margin-bottom: -72px;
 }
 
 .primary-graphic {
@@ -339,6 +330,17 @@ h1, h2, h3, h4 {
 
 .section--contact {
     background-color: #536c8b;
+}
+
+.section__inner {
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.section__inner--what-we-do {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .section__header {
@@ -415,6 +417,7 @@ h1, h2, h3, h4 {
 .project-list {
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 1em;
 }
 
 .project-item {
@@ -423,26 +426,6 @@ h1, h2, h3, h4 {
     padding: 0;
     margin-bottom: 1em;
     position: relative;
-}
-
-.project-item:before {
-    content: "";
-    background: url("../images/link-pointer.svg") center center no-repeat;
-    height: 32px;
-    width: 32px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-size: cover;
-}
-
-.project-item:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    display: block;
-    background-color: rgb(37, 59, 69);
-    opacity: 0.6;
 }
 
 .project-item--delivericious {
