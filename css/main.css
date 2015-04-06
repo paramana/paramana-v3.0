@@ -35,12 +35,19 @@ ul {
 .next-section {
     border-bottom: none;
     font-size: 3em;
-    bottom: 72px;
+    bottom: 88px; /* 72px the header height + 1 em */
     left: 50%;
     margin-left: -24px;
     position: absolute;
     opacity: 0.6;
     padding: 1px;
+}
+
+@media (min-width: 600px) {
+    .next-section {
+        font-size: 3em;
+        bottom: 104px; /* 88px the header height + 1 em */
+    }
 }
 
 .next-section:hover {
@@ -167,13 +174,12 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 .nav-bar {
-    /*height: 72px;*/
-    /*background-color: #2D2C38;*/
+    height: 72px;
 }
 
 @media all and (min-width: 600px) {
     .nav-bar {
-        /*height: 88px;*/
+        height: 88px;
     }
 }
 
@@ -295,7 +301,7 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 .section {
-
+    position: relative;
 }
 
 .section--what-we-do {
@@ -305,8 +311,14 @@ h1, h2, h3, h4 {
     width: 100%;
     padding: 0;
     position: relative;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     text-align: center;
+}
+
+@media all and (min-width: 600px) {
+    .section--what-we-do {
+        margin-bottom: -88px;
+    }
 }
 
 .primary-graphic {
@@ -320,6 +332,7 @@ h1, h2, h3, h4 {
 
 .section--our-work {
     background-color: #536c8b;
+    z-index: 2;
 }
 
 .section--who-we-are {
