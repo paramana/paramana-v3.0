@@ -583,7 +583,7 @@ h1, h2, h3, h4 {
     font-size: 1.5em;
     position: absolute;
     top: 0.5em;
-    right: 5%;
+    right: 1%;
     border-bottom: none;
     padding: 1%;
     opacity: 0.6;
@@ -598,13 +598,17 @@ h1, h2, h3, h4 {
     margin-bottom: 2em;
 }
 
+.project__name {
+    font-size: 2em;
+}
+
 .project__url {
     border-bottom: 1px solid white;
 }
 
 .project__image {
     display: block;
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
 }
 
 .project__close {

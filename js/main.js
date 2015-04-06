@@ -1,5 +1,5 @@
 // TODO
-// - Close the modal window on esc and on click out
+// - Close the modal window on esc and on click out of the image
 //   of the container.
 // - Path in the url when modal window is open
 
