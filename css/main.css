@@ -45,6 +45,8 @@ ul {
 }
 
 .next-section:active {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
     transform: scale(.9);
 }
 
@@ -295,6 +297,8 @@ h1, h2, h3, h4 {
 }
 
 .menu-icon:active {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
     transform: scale(.9);
 }
 
@@ -477,6 +481,8 @@ h1, h2, h3, h4 {
 }
 
 .section__cta a:active {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
     transform: scale(.9);
 }
 
@@ -692,6 +698,8 @@ h1, h2, h3, h4 {
 }
 
 .project__pi-close:active {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
     transform: scale(.9);
 }
 
