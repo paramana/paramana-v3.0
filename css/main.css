@@ -148,28 +148,70 @@ h1, h2, h3, h4 {
 .pi-dribbble:before {
     content: "\e600";
 }
+
 .pi-twitter:before {
     content: "\e601";
 }
+
 .pi-github:before {
-    content: "\e603";
-}
-.pi-linkedin:before {
-    content: "\e606";
-}
-.pi-down-arrow-circle:before {
-    content: "\e608";
-}
-.pi-up-arrow-circle:before {
     content: "\e602";
 }
-.pi-hamburger:before {
-    content: "\e607";
+
+.pi-linkedin:before {
+    content: "\e603";
 }
-.pi-close:before {
+
+.pi-down-arrow-circle:before {
     content: "\e604";
 }
 
+.pi-plus-circle:before {
+    content: "\e605";
+}
+
+.pi-plus:before {
+    content: "\e606";
+}
+
+.pi-close-circle:before {
+    content: "\e607";
+}
+
+.pi-close:before {
+    content: "\e608";
+}
+
+.pi-down-arrow:before {
+    content: "\e609";
+}
+
+.pi-up-arrow-circle:before {
+    content: "\e60a";
+}
+
+.pi-up-arrow:before {
+    content: "\e60b";
+}
+
+.pi-left-arrow-circle:before {
+    content: "\e60c";
+}
+
+.pi-left-arrow:before {
+    content: "\e60d";
+}
+
+.pi-fullscreen:before {
+    content: "\e60e";
+}
+
+.pi-hamburger:before {
+    content: "\e60f";
+}
+
+.pi-loading:before {
+    content: "\e610";
+}
 
 
 /* ==========================================================================
@@ -232,14 +274,14 @@ h1, h2, h3, h4 {
 }
 
 .menu-icon {
-    font-size: 32px;
-    line-height: 72px;
+    font-size: 2.5em;
     display: inline-block;
     float: right;
     border: 0;
     height: 72px;
     width: 72px;
     text-align: center;
+    line-height: 72px;
 }
 
 @media all and (min-width: 600px) {
@@ -452,27 +494,27 @@ h1, h2, h3, h4 {
 }
 
 .project-item--delivericious {
-    background: #D5D7C8 url("../images/projects/delivericious@1x.png") center center no-repeat;
+    background: #D5D7C8 url("../images/projects/logos/delivericious@1x.png") center center no-repeat;
 }
 
 .project-item--emprego {
-    background: white url("../images/projects/emprego@1x.png") center center no-repeat;
+    background: white url("../images/projects/logos/emprego@1x.png") center center no-repeat;
 }
 
 .project-item--amnesty {
-    background: #F5F500 url("../images/projects/amnesty@1x.png") center center no-repeat;
+    background: #F5F500 url("../images/projects/logos/amnesty@1x.png") center center no-repeat;
 }
 
 .project-item--index {
-    background: white url("../images/projects/index@1x.png") center center no-repeat;
+    background: white url("../images/projects/logos/index@1x.png") center center no-repeat;
 }
 
 .project-item--qcenter {
-    background: white url("../images/projects/qcenter@1x.png") center center no-repeat;
+    background: white url("../images/projects/logos/qcenter@1x.png") center center no-repeat;
 }
 
 .project-item--moa192b {
-    background: #0A0A0A url("../images/projects/moa192b@1x.png") center center no-repeat;
+    background: #0A0A0A url("../images/projects/logos/moa192b@1x.png") center center no-repeat;
 }
 
 @media all and (min-width: 600px) {
@@ -587,13 +629,18 @@ h1, h2, h3, h4 {
 }
 
 .modal-window__pi-close {
-    font-size: 1.5em;
+    font-size: 2.2em;
     position: absolute;
     top: 0.5em;
     right: 1%;
-    border-bottom: none;
     padding: 1%;
     opacity: 0.6;
+}
+
+@media all and (min-width: 800px) {
+    .modal-window__pi-close {
+        font-size: 2.5em;
+    }
 }
 
 .modal-window__pi-close:hover {
@@ -618,12 +665,21 @@ h1, h2, h3, h4 {
     margin: 0 auto 2em;
 }
 
-.project__close {
+.project__pi-close {
     text-align: center;
+    font-size: 2.5em;
+    opacity: 0.6;
+    padding: 1%;
 }
 
-.project__close .pi-close {
+.project__pi-close:hover {
+    opacity: 1;
+}
 
+@media all and (min-width: 800px) {
+    .project__pi-close {
+        font-size: 3em;
+    }
 }
 
 
