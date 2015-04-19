@@ -111,7 +111,7 @@ h1, h2, h3, h4 {
 
 @media all and (min-width: 600px) {
     .section__header {
-        font-size: 3em;
+        font-size: 2.4em;
     }
 }
 
@@ -448,6 +448,7 @@ h1, h2, h3, h4 {
     padding: 0;
     margin-bottom: 1em;
     position: relative;
+    cursor: pointer;
 }
 
 .project-item--delivericious {
@@ -474,14 +475,13 @@ h1, h2, h3, h4 {
     background: #0A0A0A url("../images/projects/moa192b@1x.png") center center no-repeat;
 }
 
-@media all and (min-width: 550px) {
+@media all and (min-width: 600px) {
     .project-item {
         width: 48%;
         display: block;
         margin-left: 1%;
         margin-right: 1%;
         float: left;
-        cursor: pointer;
     }
 
     .project-item:before {
@@ -505,7 +505,7 @@ h1, h2, h3, h4 {
 }
 
 .team-member__avatar {
-    width: 30%;
+    width: 40%;
     max-width: 100%;
     border-radius: 50%;
     border: 2px solid white;
@@ -635,6 +635,7 @@ h1, h2, h3, h4 {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #536C8B!important;
 }
 
 
