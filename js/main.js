@@ -32,7 +32,8 @@
                     return false;
                 }
 
-                if ($event.hasClass('pi-close')) {
+                if ($event.hasClass('pi-close-circle')) {
+                    console.log("pi-close pressed");
                     $modal.removeClass('visible').addClass('hidden');
                     $this.removeClass('overflow-hidden');
                     return false;
