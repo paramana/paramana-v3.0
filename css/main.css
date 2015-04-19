@@ -621,6 +621,7 @@ h1, h2, h3, h4 {
     padding-right: 5%;
     padding-left: 5%;
     overflow-y: scroll;
+    padding-bottom: 1em;
 }
 
 .modal-window img {
@@ -669,7 +670,6 @@ h1, h2, h3, h4 {
     text-align: center;
     font-size: 2.5em;
     opacity: 0.6;
-    padding: 1%;
 }
 
 .project__pi-close:hover {
@@ -678,7 +678,7 @@ h1, h2, h3, h4 {
 
 @media all and (min-width: 800px) {
     .project__pi-close {
-        font-size: 3em;
+    font-size: 3em;
     }
 }
 
