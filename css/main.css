@@ -349,8 +349,8 @@ h1, h2, h3, h4 {
 }
 
 .section__inner {
-    padding-top: 2em;
-    padding-bottom: 4em;
+    padding-top: 3em;
+    padding-bottom: 0em;
 }
 
 .section__inner--what-we-do {
@@ -537,11 +537,12 @@ h1, h2, h3, h4 {
     border-bottom: 1px solid white;
 }
 
-@media all and (min-width: 505px) {
+@media all and (min-width: 600px) {
     .team-member {
-        width: 49.6%;
+        width: 32.9%;
         display: inline-block;
         vertical-align: top;
+        font-size: 0.8em;
     }
 }
 
@@ -549,6 +550,7 @@ h1, h2, h3, h4 {
 
     .team-member {
         width: 33%;
+        font-size: 1em;
     }
 
     .team-member__avatar {
