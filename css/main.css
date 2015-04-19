@@ -576,7 +576,6 @@ h1, h2, h3, h4 {
 }
 
 .team-member__social-media span {
-    border-bottom: 1px solid white;
 }
 
 @media all and (min-width: 600px) {
@@ -622,6 +621,7 @@ h1, h2, h3, h4 {
     padding-left: 5%;
     overflow-y: scroll;
     padding-bottom: 1em;
+    -webkit-overflow-scrolling: touch;
 }
 
 .modal-window img {
