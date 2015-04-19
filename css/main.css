@@ -44,6 +44,10 @@ ul {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+.next-section:active {
+    transform: scale(.9);
+}
+
 @media (min-width: 600px) {
     .next-section {
         font-size: 3em;
@@ -290,6 +294,10 @@ h1, h2, h3, h4 {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+.menu-icon:active {
+    transform: scale(.9);
+}
+
 @media all and (min-width: 600px) {
     .logo {
         font-size: 22px;
@@ -466,6 +474,10 @@ h1, h2, h3, h4 {
 
 .section__cta a:hover {
     background-color: black;
+}
+
+.section__cta a:active {
+    transform: scale(.9);
 }
 
 .section__map {
@@ -677,6 +689,10 @@ h1, h2, h3, h4 {
     font-size: 2.5em;
     opacity: 0.6;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.project__pi-close:active {
+    transform: scale(.9);
 }
 
 .project__pi-close:hover {
