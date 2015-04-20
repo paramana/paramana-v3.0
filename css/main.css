@@ -282,24 +282,24 @@ h1, h2, h3, h4 {
 .logo:before {
     content: " ";
     background-color: #2b2b2b;
+    display: inline-block;
     border: 2px solid #e1e1e1;
 }
 
 .logo--header:before {
     width: 20px;
     height: 20px;
-    float: left;
-    display: block;
     margin-top: 24px;
     margin-left: 10px;
     margin-right: 6px;
+    float: left;
 }
 
 .logo--footer:before {
-    display: inline-block;
     width: 16px;
     height: 16px;
-    margin-right: 4px;;
+    margin-right: 4px;
+    vertical-align: text-top;
 }
 
 .menu-icon {
@@ -756,12 +756,15 @@ h1, h2, h3, h4 {
 .back-to-top {
     display: block;
     padding-top: 2em;
+    opacity: 0.6;
 }
 
+.back-to-top:hover {
+    opacity: 1;
+}
 .back-to-top-icon {
     display: block;
     font-size: 3em;
-    opacity: 0.6;
 }
 
 /* ==========================================================================
@@ -790,7 +793,4 @@ h1, h2, h3, h4 {
 
 .overflow-hidden {
     overflow: hidden;
-}
-.back-to-top:hover .back-to-top-icon {
-    opacity: 1;
 }
