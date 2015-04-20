@@ -39,7 +39,6 @@ ul {
     left: 50%;
     margin-left: -24px;
     position: absolute;
-    opacity: 0.6;
     padding: 1px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -58,7 +57,6 @@ ul {
 }
 
 .next-section:hover {
-    opacity: 1;
 }
 
 .link {
@@ -269,6 +267,13 @@ h1, h2, h3, h4 {
     line-height: 72px;
 }
 
+@media all and (min-width: 600px) {
+    .logo--header {
+        font-size: 22px;
+        line-height: 88px;
+    }
+}
+
 .logo--footer {
     font-size: 16px;
     line-height: 32px;
@@ -286,6 +291,7 @@ h1, h2, h3, h4 {
     border: 2px solid #e1e1e1;
 }
 
+
 .logo--header:before {
     width: 20px;
     height: 20px;
@@ -294,6 +300,14 @@ h1, h2, h3, h4 {
     margin-right: 6px;
     float: left;
 }
+
+@media all and (min-width: 600px) {
+    .logo--header:before {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 
 .logo--footer:before {
     width: 16px;
@@ -321,15 +335,6 @@ h1, h2, h3, h4 {
 }
 
 @media all and (min-width: 600px) {
-    .logo {
-        font-size: 22px;
-        line-height: 88px;
-    }
-
-    .logo:before {
-        width: 30px;
-        height: 30px;
-    }
 
     .menu-icon {
         width: 88px;
@@ -756,15 +761,15 @@ h1, h2, h3, h4 {
 .back-to-top {
     display: block;
     padding-top: 2em;
-    opacity: 0.6;
 }
 
-.back-to-top:hover {
-    opacity: 1;
-}
 .back-to-top-icon {
     display: block;
     font-size: 3em;
+}
+
+.back-to-top:active .back-to-top-icon {
+    transform: scale(.9);
 }
 
 /* ==========================================================================
@@ -794,3 +799,4 @@ h1, h2, h3, h4 {
 .overflow-hidden {
     overflow: hidden;
 }
+
