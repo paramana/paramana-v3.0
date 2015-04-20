@@ -259,12 +259,20 @@ h1, h2, h3, h4 {
 
 .logo {
     font-family: "comfortaaregular";
-    font-size: 19px;
     letter-spacing: 0.5px;
-    line-height: 72px;
-    display: inline-block;
     margin: 0;
-    border-bottom: none;
+}
+
+.logo--header {
+    font-size: 19px;
+    display: inline-block;
+    line-height: 72px;
+}
+
+.logo--footer {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0.5em 0;
 }
 
 .logo__dotcom {
@@ -273,15 +281,25 @@ h1, h2, h3, h4 {
 
 .logo:before {
     content: " ";
+    background-color: #2b2b2b;
+    border: 2px solid #e1e1e1;
+}
+
+.logo--header:before {
     width: 20px;
     height: 20px;
-    background-color: #2b2b2b;
-    display: block;
-    border: 2px solid #e1e1e1;
     float: left;
-    margin-right: 6px;
+    display: block;
     margin-top: 24px;
     margin-left: 10px;
+    margin-right: 6px;
+}
+
+.logo--footer:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;;
 }
 
 .menu-icon {
@@ -727,6 +745,26 @@ h1, h2, h3, h4 {
 
 
 /* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+    background-color: #2b2b2b;
+    text-align: center;
+}
+
+.back-to-top {
+    display: block;
+    padding-top: 2em;
+}
+
+.back-to-top-icon {
+    display: block;
+    font-size: 3em;
+    opacity: 0.6;
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -752,4 +790,7 @@ h1, h2, h3, h4 {
 
 .overflow-hidden {
     overflow: hidden;
+}
+.back-to-top:hover .back-to-top-icon {
+    opacity: 1;
 }
