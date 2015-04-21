@@ -25,7 +25,6 @@ body {
     height: 100%;
 }
 
-
 ul {
     list-style: none;
     padding: 0;
@@ -113,16 +112,6 @@ h1, h2, h3, h4 {
     }
 }
 
-.section__header {
-    line-height: 1;
-    font-size: 2em;
-}
-
-@media all and (min-width: 600px) {
-    .section__header {
-        font-size: 2.4em;
-    }
-}
 
 
 /* ==========================================================================
@@ -431,8 +420,8 @@ h1, h2, h3, h4 {
 }
 
 .section__inner {
-    padding-top: 3em;
-    padding-bottom: 0em;
+    padding-bottom: 4em;
+    padding-top: 2em;
 }
 
 .section__inner--what-we-do {
@@ -441,15 +430,22 @@ h1, h2, h3, h4 {
     vertical-align: middle;
 }
 
+.section__inner--contact {
+    padding-bottom: 0;
+}
+
 .section__header {
     text-align: center;
     position: relative;
-    padding: 0.5em 2%;
     margin: 0;
+    padding: 0.5em 2%;
+    line-height: 1;
+    font-size: 2em;
 }
 
-@media all and (min-width: 699px) {
+@media all and (min-width: 600px) {
     .section__header {
+        font-size: 2.4em;
         max-width: 700px;
         margin: auto;
     }
@@ -762,7 +758,6 @@ h1, h2, h3, h4 {
 }
 
 .back-to-top-icon {
-    display: block;
     font-size: 3em;
 }
 
