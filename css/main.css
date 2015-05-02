@@ -748,13 +748,13 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 .footer {
-    background-color: #2b2b2b;
     text-align: center;
 }
 
 .back-to-top {
     display: block;
     padding: 2em 0 1em;
+    background-color: #2b2b2b;
 }
 
 .back-to-top-icon {
@@ -763,6 +763,12 @@ h1, h2, h3, h4 {
 
 .back-to-top:active .back-to-top-icon {
     transform: scale(.9);
+}
+
+.colophon {
+    padding: 1em 0;
+    display: block;
+    background-color: rgb(53, 52, 51);
 }
 
 /* ==========================================================================

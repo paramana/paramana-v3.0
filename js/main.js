@@ -2,6 +2,7 @@
 // - Close the modal window on esc and on click out of the image
 //   of the container.
 // - Path in the url when modal window is open
+// - When click on a nav link, the nav should close
 
 
 (function(){
