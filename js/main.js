@@ -1,8 +1,5 @@
 // TODO
-// - Close the modal window on esc and on click out of the image
-//   of the container.
 // - Path in the url when modal window is open
-// - When click on a nav link, the nav should close
 
 
 (function(){
@@ -11,11 +8,13 @@
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
                 if (target.length) {
                     $('html,body').animate({
                         scrollTop: target.offset().top
                     }, 700);
-                    return false;
+
+                    return;
                 }
             }
         });
@@ -28,13 +27,16 @@
                 var $this  = $(this),
                     $event = $(event.target);
 
+                if ($event.hasClass('nav-item') || $event.parent().hasClass('nav-item')) {
+                    $nav.removeClass('expanded');
+                }
+
                 if ($event.hasClass('menu-icon') || $event.parent().hasClass('menu-icon')) {
                     $nav.toggleClass('expanded');
                     return false;
                 }
 
                 if ($event.hasClass('pi-close-circle')) {
-                    console.log("pi-close pressed");
                     $modal.removeClass('visible').addClass('hidden');
                     $this.removeClass('overflow-hidden');
                     return false;
@@ -44,6 +46,22 @@
 
                     $('.modal-window--' + dataID + ':eq(0)').removeClass('hidden').addClass('visible');
                     $this.addClass('overflow-hidden');
+                    return false;
+                }
+
+                if ($event.hasClass('project') && $event.parent().hasClass('modal-window')) {
+                    $modal.removeClass('visible').addClass('hidden');
+                    $this.removeClass('overflow-hidden');
+                    return false;
+                }
+            },
+            keyup: function(event){
+                var $this  = $(this),
+                    $event = $(event.target);
+
+                if (event.keyCode == 27 && $('.modal-window:visible').length) {
+                    $modal.removeClass('visible').addClass('hidden');
+                    $this.removeClass('overflow-hidden');
                     return false;
                 }
             }
