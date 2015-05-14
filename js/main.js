@@ -1,5 +1,9 @@
 // TODO
+// - Fix the flash when click on the navigation links (viewed on chrome)
 // - Path in the url when modal window is open
+// - Make the modal window to scroll to the top when have clicked on the modal
+//   before and scrolled down the page
+// - Make the colophon modal widow visible when clicking on the clolophon link
 
 
 (function(){
