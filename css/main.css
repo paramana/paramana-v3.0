@@ -210,11 +210,11 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 .nav-bar {
-    max-width: 1280px;
     margin: 0 auto;
     height: 72px;
     position: relative;
     z-index: 1;
+    background-color: #2E2F3D;
 }
 
 @media all and (min-width: 600px) {
@@ -229,6 +229,7 @@ h1, h2, h3, h4 {
 }
 
 .nav {
+    background-color: #2E2F3D;
     position: relative;
     transition: all 0.3s ease-in;
     max-height: 0;
