@@ -577,12 +577,20 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+.team-member:hover .team-member__avatar {
+    opacity: 1;
+}
+
+
 .team-member__avatar {
     width: 40%;
-    max-width: 100%;
     border-radius: 50%;
     border: 3px solid white;
     margin-bottom: 0.3em;
+    overflow: hidden;
+    display: inline-block;
+    max-height: 100%;
+    opacity: 0.7;
 }
 
 .team-member__name {
@@ -625,6 +633,7 @@ h1, h2, h3, h4 {
 
     .team-member__avatar {
         width: 70%;
+        margin-bottom: 0.5em;
     }
 }
 
