@@ -1,18 +1,13 @@
-/**
+/*
     *
     * Copyright (c) 2015 paramana.com
     * Theme Name: paramana.com
     * Description: Main CSS file for paramana.com
     * Version: 3.0
-    * Author: paramana.com
+    * Author: thanos@paramana.com
     *
  */
 
-
-
-/* ==========================================================================
-   General Rules
-   ========================================================================== */
 
 html {
     height: 100%;
@@ -43,9 +38,10 @@ ul {
 }
 
 .next-section:active {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
-    transform: scale(.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 @media (min-width: 600px) {
@@ -53,9 +49,6 @@ ul {
         font-size: 3em;
         bottom: 104px; /* 88px the header height + 1 em */
     }
-}
-
-.next-section:hover {
 }
 
 .link {
@@ -75,10 +68,10 @@ ul {
     font-family: "comfortaaregular";
     src: url("webfontkit/comfortaa-regular-webfont.eot");
     src: url("webfontkit/comfortaa-regular-webfont.eot?#iefix") format("embedded-opentype"),
-        url("webfontkit/comfortaa-regular-webfont.woff2") format("woff2"),
-        url("webfontkit/comfortaa-regular-webfont.woff") format("woff"),
-        url("webfontkit/comfortaa-regular-webfont.ttf") format("truetype"),
-        url("webfontkit/comfortaa-regular-webfont.svg#comfortaaregular") format("svg");
+    url("webfontkit/comfortaa-regular-webfont.woff2") format("woff2"),
+    url("webfontkit/comfortaa-regular-webfont.woff") format("woff"),
+    url("webfontkit/comfortaa-regular-webfont.ttf") format("truetype"),
+    url("webfontkit/comfortaa-regular-webfont.svg#comfortaaregular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -104,7 +97,7 @@ h1, h2, h3, h4 {
 
 @media all and (min-width: 600px) {
     .section__summary {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     .section__cta {
@@ -119,18 +112,18 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 @font-face {
-    font-family: 'paramana-icon-font';
-    src:url('fonts/paramana-icon-font.eot?ihbg7i');
-    src:url('fonts/paramana-icon-font.eot?#iefixihbg7i') format('embedded-opentype'),
-        url('fonts/paramana-icon-font.woff?ihbg7i') format('woff'),
-        url('fonts/paramana-icon-font.ttf?ihbg7i') format('truetype'),
-        url('fonts/paramana-icon-font.svg?ihbg7i#paramana-icon-font') format('svg');
+    font-family: "paramana-icon-font";
+    src: url("fonts/paramana-icon-font.eot?ihbg7i");
+    src: url("fonts/paramana-icon-font.eot?#iefixihbg7i") format("embedded-opentype"),
+    url("fonts/paramana-icon-font.woff?ihbg7i") format("woff"),
+    url("fonts/paramana-icon-font.ttf?ihbg7i") format("truetype"),
+    url("fonts/paramana-icon-font.svg?ihbg7i#paramana-icon-font") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 [class^="pi-"], [class*=" pi-"] {
-    font-family: 'paramana-icon-font';
+    font-family: "paramana-icon-font";
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -248,8 +241,8 @@ h1, h2, h3, h4 {
 
 .logo {
     font-family: "comfortaaregular";
-    letter-spacing: 0.5px;
     margin: 0;
+    letter-spacing: 0.5px;
 }
 
 .logo--header {
@@ -266,8 +259,9 @@ h1, h2, h3, h4 {
 }
 
 .logo--footer {
+    padding-top: 1em;
     font-size: 16px;
-    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .logo__dotcom {
@@ -280,7 +274,6 @@ h1, h2, h3, h4 {
     display: inline-block;
     border: 2px solid #e1e1e1;
 }
-
 
 .logo--header:before {
     width: 20px;
@@ -319,13 +312,12 @@ h1, h2, h3, h4 {
 }
 
 .menu-icon:active {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
-    transform: scale(.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 @media all and (min-width: 600px) {
-
     .menu-icon {
         width: 88px;
         height: 88px;
@@ -356,7 +348,6 @@ h1, h2, h3, h4 {
     .nav {
         max-height: none;
         float: right;
-        max-height: none;
         overflow: visible;
         padding-top: 32px;
         margin-right: 10px;
@@ -370,7 +361,7 @@ h1, h2, h3, h4 {
         padding: 0.4em 0.8em;
         font-size: 1.1em;
         border-radius: 2px;
-        border: 0px solid white;
+        border: 0 solid white;
     }
 }
 
@@ -383,29 +374,18 @@ h1, h2, h3, h4 {
 }
 
 .section--what-we-do {
-    margin-bottom: -72px;
-    height: 100%;
-    display: table;
+    background: url(../images/hero-graphic.png) no-repeat center center;
     width: 100%;
     padding: 0;
-    position: relative;
-    /*padding-bottom: 100px;*/
     text-align: center;
+    background-size: contain;
+    min-height: 100vh;
 }
 
 @media all and (min-width: 600px) {
     .section--what-we-do {
-        margin-bottom: -88px;
+    margin-bottom: -88px;
     }
-}
-
-.primary-graphic {
-    width: 100%;
-    top: -60px;
-    position: relative;
-    opacity: 0.8;
-    margin-bottom: -60px;
-    max-width: 1280px;
 }
 
 .section--our-work {
@@ -422,14 +402,15 @@ h1, h2, h3, h4 {
 }
 
 .section__inner {
-    padding-bottom: 4em;
-    padding-top: 2em;
+    padding-top: 10em;
+    padding-bottom: 12em;
 }
 
 .section__inner--what-we-do {
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
 }
 
 .section__inner--contact {
@@ -447,8 +428,8 @@ h1, h2, h3, h4 {
 
 @media all and (min-width: 600px) {
     .section__header {
-        font-size: 2.4em;
-        max-width: 700px;
+        font-size: 3em;
+        max-width: 800px;
         margin: auto;
     }
 }
@@ -457,7 +438,7 @@ h1, h2, h3, h4 {
     content: " ";
     display: block;
     width: 80px;
-    height: 1px;
+    height: 2px;
     background-color: white;
     bottom: 0;
     left: 50%;
@@ -497,13 +478,13 @@ h1, h2, h3, h4 {
 }
 
 .section__cta a:hover {
-    background-color: black;
+    background-color: #191921;
 }
 
 .section__cta a:active {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
-    transform: scale(.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .section__map {
@@ -535,10 +516,16 @@ h1, h2, h3, h4 {
     margin-bottom: 1em;
     position: relative;
     cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+}
+
+.project-item:hover {
+    opacity: 1;
 }
 
 .project-item--delivericious {
-    background: #D5D7C8 url("../images/projects/logos/delivericious@1x.png") center center no-repeat;
+    background: #d5d7c8 url("../images/projects/logos/delivericious@1x.png") center center no-repeat;
 }
 
 .project-item--emprego {
@@ -546,7 +533,7 @@ h1, h2, h3, h4 {
 }
 
 .project-item--amnesty {
-    background: #F5F500 url("../images/projects/logos/amnesty@1x.png") center center no-repeat;
+    background: #f5f500 url("../images/projects/logos/amnesty@1x.png") center center no-repeat;
 }
 
 .project-item--index {
@@ -558,7 +545,7 @@ h1, h2, h3, h4 {
 }
 
 .project-item--moa192b {
-    background: #0A0A0A url("../images/projects/logos/moa192b@1x.png") center center no-repeat;
+    background: #0a0a0a url("../images/projects/logos/moa192b@1x.png") center center no-repeat;
 }
 
 @media all and (min-width: 600px) {
@@ -594,7 +581,7 @@ h1, h2, h3, h4 {
     width: 40%;
     max-width: 100%;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 3px solid white;
     margin-bottom: 0.3em;
 }
 
@@ -619,8 +606,7 @@ h1, h2, h3, h4 {
     margin-left: 0.5em;
 }
 
-.team-member__social-media span {
-}
+
 
 @media all and (min-width: 600px) {
     .team-member {
@@ -632,7 +618,6 @@ h1, h2, h3, h4 {
 }
 
 @media all and (min-width: 800px) {
-
     .team-member {
         width: 33%;
         font-size: 1em;
@@ -641,7 +626,6 @@ h1, h2, h3, h4 {
     .team-member__avatar {
         width: 70%;
     }
-
 }
 
 
@@ -698,11 +682,12 @@ h1, h2, h3, h4 {
 }
 
 .project__name {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .project__url {
     border-bottom: 1px solid white;
+    font-size: 1.3em;
 }
 
 .project__image {
@@ -717,9 +702,9 @@ h1, h2, h3, h4 {
 }
 
 .project__pi-close:active {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
-    transform: scale(.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .project__pi-close:hover {
@@ -728,7 +713,7 @@ h1, h2, h3, h4 {
 
 @media all and (min-width: 800px) {
     .project__pi-close {
-    font-size: 3em;
+        font-size: 3em;
     }
 }
 
@@ -741,7 +726,7 @@ h1, h2, h3, h4 {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #536C8B!important;
+    background-color: #536c8b!important;
 }
 
 
@@ -764,21 +749,25 @@ h1, h2, h3, h4 {
 }
 
 .back-to-top:active .back-to-top-icon {
-    transform: scale(.9);
+    transform: scale(0.9);
 }
 
-.colophon {
+.copyright {
+
+}
+
+/*.colophon {
     padding: 1em 0;
     display: block;
-    background-color: #1F1F1F;
+    background-color: #1f1f1f;
 }
+*/
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
@@ -800,4 +789,3 @@ h1, h2, h3, h4 {
 .overflow-hidden {
     overflow: hidden;
 }
-
