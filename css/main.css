@@ -409,7 +409,7 @@ h1, h2, h3, h4 {
 
 .section__inner--what-we-do {
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-50%);
     width: 100%;
 }
