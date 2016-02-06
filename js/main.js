@@ -104,7 +104,7 @@
                 ];
 
             var mapOptions = {
-                    zoom: 13,
+                    zoom: 14,
                     center: paramanaHQ,
                     disableDefaultUI: true,
                     scrollwheel: false,
