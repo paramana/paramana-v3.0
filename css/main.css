@@ -10,7 +10,8 @@
 
 
 html {
-    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -589,7 +590,6 @@ h1, h2, h3, h4 {
     overflow: hidden;
     display: inline-block;
     max-height: 100%;
-    opacity: 0.7;
 }
 
 .team-member__name {
