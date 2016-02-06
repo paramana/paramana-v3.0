@@ -33,7 +33,7 @@ ul {
     margin-left: -24px;
     position: absolute;
     padding: 1px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .button {
@@ -105,12 +105,10 @@ h1, h2, h3, h4 {
     .section__summary {
         font-size: 1.3em;
     }
-
     .section__cta {
         font-size: 1.2em;
     }
 }
-
 
 
 /* ==========================================================================
@@ -298,7 +296,6 @@ h1, h2, h3, h4 {
     }
 }
 
-
 .logo--footer:before {
     width: 16px;
     height: 16px;
@@ -315,7 +312,7 @@ h1, h2, h3, h4 {
     width: 72px;
     text-align: center;
     line-height: 72px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .menu-icon:active {
@@ -346,12 +343,10 @@ h1, h2, h3, h4 {
     display: block;
 }
 
-
 @media all and (min-width: 900px) {
     .menu-icon {
         display: none;
     }
-
     .nav {
         max-height: none;
         float: right;
@@ -359,13 +354,12 @@ h1, h2, h3, h4 {
         padding-top: 24px;
         margin-right: 10px;
     }
-
     .nav-item {
         display: inline-block;
     }
-
     .nav-item a {
-        padding: 0.8em 1em;;
+        padding: 0.8em 1em;
+        ;
         font-size: 1.1em;
         border-radius: 2px;
     }
@@ -373,6 +367,7 @@ h1, h2, h3, h4 {
         background-color: rgba(0, 0, 0, 0.2);
     }
 }
+
 
 /* ==========================================================================
     Sections
@@ -393,7 +388,7 @@ h1, h2, h3, h4 {
 
 @media all and (min-width: 600px) {
     .section--what-we-do {
-    margin-bottom: -88px;
+        margin-bottom: -88px;
     }
 }
 
@@ -565,11 +560,11 @@ h1, h2, h3, h4 {
         margin-right: 1%;
         float: left;
     }
-
     .project-item:before {
         display: none;
     }
 }
+
 
 /* ==========================================================================
    Team member
@@ -618,7 +613,6 @@ h1, h2, h3, h4 {
     margin-left: 0.5em;
 }
 
-
 @media (min-width: 630px) {
     .team-member {
         width: 32.9%;
@@ -633,13 +627,11 @@ h1, h2, h3, h4 {
         width: 33%;
         font-size: 1em;
     }
-
     .team-member__avatar {
         width: 70%;
         margin-bottom: 0.5em;
     }
 }
-
 
 
 /* ==========================================================================
@@ -661,7 +653,7 @@ h1, h2, h3, h4 {
     padding-left: 10%;
     overflow-y: scroll;
     padding-bottom: 3em;
-    -webkit-overflow-scrolling: touch;;
+    -webkit-overflow-scrolling: touch;
 }
 
 .modal-window img {
@@ -695,12 +687,13 @@ h1, h2, h3, h4 {
 .modal-window__close--top {
     top: 1em;
     right: 10%;
-    position: absolute;;
+    position: absolute;
 }
 
 .modal-window__close--bottom {
     text-align: center;
 }
+
 
 /* ==========================================================================
    Map
@@ -728,9 +721,8 @@ h1, h2, h3, h4 {
     background-color: #2b2b2b;
 }
 
-.copyright {
+.copyright {}
 
-}
 
 /*.colophon {
     padding: 1em 0;
